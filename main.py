@@ -21,4 +21,4 @@ standardDeviation = math.sqrt(variance)
 print(f"Standard Deviation : {standardDeviation}")
 
 period = {min : average - standardDeviation , max : average + standardDeviation}
-print(f"Period : {period[max]}")
+print(f"Period : min = {period[max]} max = {period[max]}")
