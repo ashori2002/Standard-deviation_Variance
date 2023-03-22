@@ -1,3 +1,4 @@
+import math
 myList = [10,12,13,15,18,20,25,26,32]
 
 average = (sum(myList)/len(myList))
@@ -16,4 +17,5 @@ for i in myList:
 variance = sum(newList)/5
 print(f"Variance : {variance}")
 
-
+standardDeviation = math.sqrt(variance)
+print(f"Standard Deviation : {standardDeviation}")
